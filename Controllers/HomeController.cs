@@ -43,7 +43,6 @@ namespace test.Controllers
         }
 
 
-        //Copy Paste from the Sample Code
         private async Task Echo(HttpContext context, WebSocket webSocket)
         {
             var buffer = new byte[1024 * 4];
